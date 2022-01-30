@@ -28,6 +28,6 @@ const reducer = (state = [], action) => {
   }
 };
 
-const store = createStore();
+const store = createStore(reducer);
 
 export default store;
